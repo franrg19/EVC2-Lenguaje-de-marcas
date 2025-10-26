@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE plataforma SYSTEM "Plataforma.dtd">-->
+
+
+<plataforma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plataforma.xsd">
+    <cursos>
+        <curso id="C001" codigo="Dam24">
+            <titulo>Desarrollo de aplicaciones multiplataforma</titulo>
+            <nivel>Grado superior</nivel>
+            <modalidad>online</modalidad>
+            <horas>2000</horas>
+            <modulos>
+                <modulo clave="zzz">
+                    <nombre>Lenguaje de marcas</nombre>
+                    <horas>70</horas>
+                </modulo>
+                <modulo clave="xxx">
+                    <nombre>Programacion</nombre>
+                    <horas>70</horas>
+                </modulo>
+            </modulos>
+        </curso>
+        <curso id="C002" codigo="TES24">
+            <titulo>Tecnico emergencias sanitarias</titulo>
+            <nivel>Grado medio</nivel>
+            <modalidad>Presencial</modalidad>
+            <horas>2000</horas>
+            <modulos>
+                <modulo>
+                    <nombre>Anatomofisiologia</nombre>
+                    <horas>60</horas>
+                </modulo>
+                <modulo>
+                    <nombre>Politraumatismos</nombre>
+                    <horas>60</horas>
+                </modulo>
+            </modulos>
+        </curso>
+    </cursos>
+
+    <alumnos>
+        <alumno id="A001" nif="73541489t">
+            <nombre>Fran Rebollo</nombre>
+            <email>fran@miemail.com</email>
+            <telefono>600100200</telefono>
+        </alumno>
+        <alumno id="A002">
+            <nombre>Juanan martin</nombre>
+            <email>juan@email.com</email>
+        </alumno>
+    </alumnos>
+
+    <matriculas>
+        <matricula id="f001" alumnoRef="A001" cursoRef="C001">
+            <fecha_alta>2024-10-26</fecha_alta>
+            <estado>matriculado</estado>
+        </matricula>
+        <matricula id="ja001" alumnoRef="A002" cursoRef="C002">
+            <fecha_alta>2025-11-06</fecha_alta>
+            <estado>en_proceso</estado>
+        </matricula>
+    </matriculas>
+
+    <evaluaciones fecha_publicacion="2024-01-17">
+        <evaluacion id="EV001" matriculaRef="f001" >
+            <instrumento>ordenador</instrumento>
+            <convocatoria>Enero</convocatoria>
+            <nota>9</nota>
+        </evaluacion>
+        <evaluacion id="EV002" matriculaRef="ja001">
+            <instrumento>ordenador</instrumento>
+            <convocatoria>junio</convocatoria>
+            <nota>7</nota>
+        </evaluacion>
+    </evaluaciones>
+
+
+</plataforma>
