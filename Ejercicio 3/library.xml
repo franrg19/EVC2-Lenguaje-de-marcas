@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE library SYSTEM "library.dtd">-->
+
+
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+<book>
+    <title>Harry Potter y el prisionero de Azkaban</title>
+    <author>JK Rowling</author>
+    <year>2003</year>
+    <publisher>Salamandra</publisher>
+    <pages>359</pages>
+</book>
+
+<book>
+    <title>La chica de nieve</title>
+    <author>Javier del Castillo</author>
+    <year>2020</year>
+    <publisher>debolsillo</publisher>
+    <pages>384</pages>
+</book>
+
+<book>
+    <title>El cuco de Cristal</title>
+    <author>Javier del Castillo</author>
+    <year>2023</year>
+    <publisher>debolsillo</publisher>
+    <pages>390</pages>
+</book>
+
+
+
+</library>
